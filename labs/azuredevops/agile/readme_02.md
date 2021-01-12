@@ -5,7 +5,7 @@
 
 1. Copy the DevOps link from the Lab Environment output page to Navigate to your Parts Unlimited project on Azure DevOps. 
 
-  ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400agile-suraj/labs/azuredevops/agile/images/agile-output.png)
+    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400agile-suraj/labs/azuredevops/agile/images/agile-output.png)
 
 1. Open the settings page using the **Project settings** navigation located at the bottom left of the page.
 
