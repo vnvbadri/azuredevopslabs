@@ -1,0 +1,18 @@
+[ {
+  "Name": "Az400-agile-planning-and-portfolio-management-with-azure-boards",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/readme_01.md",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/readme_02.md",
+      "Order": 2
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/readme_03.md",
+      "Order": 3
+    }
+  ]
+} ]
