@@ -3,15 +3,15 @@
   "Language": "English",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/readme_01.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/azuredevops/agile/readme_01.md",
       "Order": 1
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/readme_02.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/azuredevops/agile/readme_02.md",
       "Order": 2
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/readme_03.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/azuredevops/agile/readme_03.md",
       "Order": 3
     }
   ]
