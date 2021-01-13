@@ -3,7 +3,9 @@
 <a name="Ex1Task1"></a>
 ### Task 1: Creating a basic build pipeline from a template ###
 
-1. Navigate to your team project on Azure DevOps.
+1. Copy the DevOps link from the Lab Environment output page to Navigate to your Parts Unlimited project on Azure DevOps. 
+
+    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400agile-suraj/labs/azuredevops/continuousintegration/images/continuousintegration-output.png)
 
 1. Navigate to **Pipelines \| Pipelines**.
 
