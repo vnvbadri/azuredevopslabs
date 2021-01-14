@@ -1,0 +1,14 @@
+[ {
+  "Name": "Az400-managing-technical-debt-with-azure-devops-and-sonarcloud",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/azuredevops/sonarcloud/readme_01.md",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/azuredevops/sonarcloud/readme_02.md",
+      "Order": 2
+    }
+  ]
+} ]
