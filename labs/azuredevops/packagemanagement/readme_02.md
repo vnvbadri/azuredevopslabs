@@ -6,7 +6,7 @@
 ### Task 1: Creating and connecting to a feed ###
 1. Login to the Virtual Machine using the Lab VM details from the Lab Environment output page. Once you are logged inside the VM, copy the DevOps link from the Lab Environment output page to navigate to your Parts Unlimited project on Azure DevOps and open the project. 
 
-    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400agile-suraj/labs/azuredevops/continuousintegration/images/packagemanagement-output.png)
+    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400agile-suraj/labs/azuredevops/packagemanagement/images/packagemanagement-output.png)
 
 1. Navigate to the **Artifacts** hub.
 
