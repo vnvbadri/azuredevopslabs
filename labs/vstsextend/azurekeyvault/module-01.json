@@ -1,18 +1,14 @@
 [ {
-  "Name": "Using secrets from Azure Key Vault in a pipeline",
+  "Name": "Az400-using-secrets-from-azure-key-vault-in-a-pipeline",
   "Language": "English",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/stage/labs/vstsextend/azurekeyvault/getting-started.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/vstsextend/azurekeyvault/readme_01.md",
       "Order": 1
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/vstsextend/azurekeyvault/readme_01.md",
-      "Order": 2
-    },
-    {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/vstsextend/azurekeyvault/readme_02.md",
-      "Order": 3
+      "Order": 2
     }
   ]
 } ]

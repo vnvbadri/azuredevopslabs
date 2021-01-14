@@ -1,3 +1,10 @@
+## What’s covered in this lab
+In this lab, you will see how you can use Azure Key Vault in a pipeline.
+
+1. We will create a key vault, from the Azure portal, to store a MySQL server password.
+1. We will configure permissions to let a service principal to read the value.
+1. We will retrieve the password in an Azure pipeline and passed on to subsequent tasks.
+
 ### Task 1: Creating a key vault
 
 Next, we will create a key vault in Azure. For this lab scenario, we have a node app that connects to a MySQL database where we will store the password for the MySQL database as a secret in the key vault.
@@ -40,7 +47,7 @@ Next, we will create a key vault in Azure. For this lab scenario, we have a node
 
     ![](images/createsecretnew.png)
 
-### Task 3: Check the Azure Pipeline
+### Task 2: Check the Azure Pipeline
 
 Now, lets go to the Azure DevOps project that you provisioned using the [Azure DevOps Demo Generator](https://azuredevopsdemogenerator.azurewebsites.net/?name=keyvault) and configure the Azure Pipelines to read the secret from the key vault.
 
@@ -65,10 +72,10 @@ Now, lets go to the Azure DevOps project that you provisioned using the [Azure D
    Click on **New Service connection** -> **Azure Resource Manager** -> **Service Principal (manual)**.
    Fill the information from previously created service principal:
 
-    -  Subscription Id and name: can be found in the keyvault resource overview page.
-    -  Service Principal Id = AppId in the copied notes.
-    -  Service Principal key = Password in the copied notes.
-    -  TenantId , copy from the notes.
+    -  Subscription Id and name: Subscription Id can be found in the Lab Environment output page and Name can be found in the keyvault resource overview page.
+    -  Service Principal Id = AppId can be found in the Lab Environment output page
+    -  Service Principal key = Password can be found in the Lab Environment output page
+    -  TenantId , can be found in the Lab Environment output page.
 
     Click on **Verify** to check it works, give the connection a name and click **Verify and Save**.
 
@@ -94,15 +101,13 @@ Now, lets go to the Azure DevOps project that you provisioned using the [Azure D
    `-webAppName $(webappName) -mySQLAdminLoginName "azureuser" -mySQLAdminLoginPassword $(sqldbpassword)`
 
    This will provision the MySQL database defined in the ARM template using the password that you have specified in the key vault. 
+Select the resource group from the drop down as shown in below image. 
+
+    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/vstsextend/azurekeyvault/images/rgselect.png)
 
    You may want to complete the pipeline definition by specifying the subscription and location for the task. Repeat the same for the last task in the pipeline **Azure App Service Deploy**. Finally, save and create a new release to start the deployment.
 
 {% include note.html content= "You may wonder that we could have passed the value as a secret task variable itself within Azure Pipelines. While that is possible, task variables are specific to a pipeline and can't be used outside the definition it is created. Also, in most cases, secrets such as these are defined by Ops who may not want to set this for every pipeline." %}
-
-### Exercise Challenge
-
-Try creating a new secret to store the user name for the MySQL Database and change the pipeline to fetch and use the secret
-
 
 ### Related Labs
 * [Embracing Continuous Delivery with Azure Pipelines](https://azuredevopslabs.com/labs/azuredevops/continuousdeployment/)
