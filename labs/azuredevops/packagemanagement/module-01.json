@@ -1,0 +1,14 @@
+[ {
+  "Name": "Az400-package-management-with-azure-artifacts",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/azuredevops/packagemanagement/readme_01.md",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/azuredevops/packagemanagement/readme_02.md",
+      "Order": 2
+    }
+  ]
+} ]
