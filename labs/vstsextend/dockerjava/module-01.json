@@ -1,0 +1,22 @@
+[ {
+  "Name": "Az400-deploying-a-dockerized-java-app-to-azure-web-app-for-containers",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/vstsextend/dockerjava/readme_01.md",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/vstsextend/dockerjava/readme_02.md",
+      "Order": 2
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/vstsextend/dockerjava/readme_03.md",
+      "Order": 3
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/vstsextend/dockerjava/readme_04.md",
+      "Order": 4
+    }
+  ]
+} ]
