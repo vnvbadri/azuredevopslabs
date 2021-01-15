@@ -17,6 +17,7 @@ Azure Pipelines app on Microsoft Teams enables you to monitor the events for you
       ![](images/add_to_team.png)
 
 1. Select your team and click on **Set up a bot**
+
       ![](images/set_up_bots.png)
 
 1. Use the `@azure pipelines` handle to start interacting with the app.
@@ -26,7 +27,6 @@ Azure Pipelines app on Microsoft Teams enables you to monitor the events for you
     ![](images/azurepipelines_signin.png)
 
 1. The app asks you to **Sign in** and authenticate to Azure Pipelines. Click **Sign in** and complete the authentication.
-
 
      ![](images/azurepipelines_signin2.png)
      ![](images/azurepipelines_signin3.png)
@@ -73,10 +73,11 @@ Run the `@Azure Pipelines subscriptions` command and select **Add Subscription**
    ![](images/azurepipelines_managesub.png)
 
    - **Get notifications only for failed builds**
+   
     ![](images/azurepipelines_custombuildsub_new.png)
 
  - **Get notifications only if the deployments are pushed to prod environment** 
    
-   ![](images/azurepipelines_customreleasesub_new.png)
+    ![](images/azurepipelines_customreleasesub_new.PNG)
 
 
