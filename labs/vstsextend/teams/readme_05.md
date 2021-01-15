@@ -23,8 +23,7 @@ These can be added using Tabs. **Tabs** allow team members to access your servic
 
      * Only Kanban boards and Dashboards within organizations in the same organization (Azure Active Directory tenant) as your Microsoft Teams account can be configured." %}
  
-1. Once you have authenticated and selected your organization, you will be displayed a screen to select a **Kanban board** or **Dashboard**. 
-
+1. Once you have authenticated and selected your organization, you will be displayed a screen to select a **Kanban board** or **Dashboard**.
 
    ![](images/select_kanbanboard.png)
 
