@@ -2,7 +2,7 @@
 
 In this exercise, we will setup a Release pipeline to deploy the web application to an Azure web app. First,let's create a Web App for Container with MYSQL.
 
-1. Navigate back to your [Azure Portal](https://portal.azure.com){:target="_blank"}.
+1. Navigate back to your [Azure Portal](https://portal.azure.com).
 
 1. In the Azure Portal, choose **+ Create a resource**, search for **Web App**, select and click *Create*.
 
@@ -29,7 +29,6 @@ In this exercise, we will setup a Release pipeline to deploy the web application
 
 1. We need to create Azure Database for MySQL as well. Choose **+ Create a resource**, search for **Azure Database for MySQL**, select and click *Create*. Provide all the required mandatory information and note down **Password** to a notepad. We will use it later in the Deployment pipeline. Click **Review + create** and then **Create**.
 
-    
     ![Creating MYSQL Server](images/mysqldbcreate.png)
 
 1. Navigate to the Azure Database for MySQL server provisioned.  Save the **Server name** and **Server admin login name** to a notepad.

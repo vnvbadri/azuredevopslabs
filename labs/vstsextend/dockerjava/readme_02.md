@@ -34,7 +34,7 @@ In this task, you will configure a CI pipeline that will build and push the imag
     |Contents|target/myshuttledev*.war, *.sql| Copy the MyShuttle WAR file
     |Target Folder|$(build.artifactstagingdirectory)|Copy it to the default staging folder|
 
-1.  Next, we have a **Publish** task to publish the build artifacts to Azure Pipelines.
+1. Next, we have a **Publish** task to publish the build artifacts to Azure Pipelines.
 
     | Parameter | Value | Notes |
     | --------------- | ---------------------------- | ----------------------------------------------------------- |
@@ -57,6 +57,7 @@ In this task, you will configure a CI pipeline that will build and push the imag
     |Image name| `Web:$(Build.BuildNumber)` | Sets a unique name for each instance of the build |
     |Qualify image name| Check (set to true)|   
     | Include Latest Tag | Check (set to true) | Adds the `latest` tag to the images produced by this build |
+   
    While authorizing subscription go to Advanced options and in the pop-up window manually select resource group from drop down 
 
     ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/vstsextend/dockerjava/images/authorize1.png)
