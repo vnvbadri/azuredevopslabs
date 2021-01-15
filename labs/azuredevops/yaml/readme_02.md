@@ -7,29 +7,34 @@
 
     ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-sathish/labs/azuredevops/yaml/images/azure-dev-link.png) 
 
- 1.After logging into Azure DevOps, click on the Project provided. 
+ 1. After logging into Azure DevOps, click on the Project provided.
 
     ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-sathish/labs/azuredevops/yaml/images/serv-principal-1.png)  
 
-    1. Click on Project Settings at the bottom of the page  
+ 1. Click on Project Settings at the bottom of the page  
 
     ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-sathish/labs/azuredevops/yaml/images/serv-principal-2.png)  
 
-    1. In Project setting select Service Connections  
+ 1. In Project setting select Service Connections  
 
     ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-sathish/labs/azuredevops/yaml/images/serv-principal-3.png)  
 
-    1. Select New Service Connection.  
+ 1. Select New Service Connection.  
 
     ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-sathish/labs/azuredevops/yaml/images/serv-principal-4.png)  
 
-    1. Now select Azure Resource Manager, Click on Next  
+ 1. Now select Azure Resource Manager, Click on Next  
 
     ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-sathish/labs/azuredevops/yaml/images/serv-principal-5.png)  
 
-    1. Now select Service Principal (manual) and click on Next  
+ 1. Now select Service Principal (manual) and click on Next  
 
     ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-sathish/labs/azuredevops/yaml/images/serv-principal-6.png)
+    
+ 1. Fill all the required details which are given in CloudLabs portal and click on Verify and save
+ 
+    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-sathish/labs/azuredevops/yaml/images/serv-principal-7.png)
+
 ### Task 2: Creating Azure resources ###
 
 1. This lab requires a deployment of the Parts Unlimited project out to an Azure app service. To do this, you will need to spin up the necessary infrastructure. Log in to your Azure account at [https://portal.azure.com](https://portal.azure.com/).
