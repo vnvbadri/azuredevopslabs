@@ -59,7 +59,7 @@ In this task, you will configure a CI pipeline that will build and push the imag
     | Include Latest Tag | Check (set to true) | Adds the `latest` tag to the images produced by this build |
    While authorizing subscription go to Advanced options and in the pop-up window manually select resource group from drop down 
 
-    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/vstsextend/dockerjava/images/authorize1.png 
+    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/vstsextend/dockerjava/images/authorize1.png)
 
     ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/vstsextend/dockerjava/images/authorize2.png)
 
