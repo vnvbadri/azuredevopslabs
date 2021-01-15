@@ -11,11 +11,10 @@ To learn more about best practices for creating teams and channels view this sho
 
    ![](images/add_channel_new.png)
 
-1. Give a name, description for your channel and select privacy and  click on **Add**
+1. Give a name, description for your channel and select privacy and click on **Add**
 
-   ![](images/create_channel_new.png)
+   ![](images/create_channel_new.PNG)
 
 1. Once the channel is created, the conversations can be started among the team members.
 
    ![](images/channel_added_new.png)
-
