@@ -42,7 +42,6 @@ In this exercise, you will create azure resources using Terraform as part of you
    The main Terraform workflow is shown below:
 
       ![](images/terraformworkflow.png)
-
       
     i. Initialize the Terraform working directory.
 
@@ -50,7 +49,8 @@ In this exercise, you will create azure resources using Terraform as part of you
    
    iii. Apply the changes described by the plan.
     
-    The next Terraform tasks in your release pipeline help you to implement this workflow.
+   The next Terraform tasks in your release pipeline help you to implement this workflow.
+    
 1. Select the **Terraform init** task. Select Azure service connection from the drop-down. And make sure to enter the container name  as **terraform**. For the other task parameters information see [here](https://github.com/microsoft/azure-pipelines-extensions/blob/master/Extensions/Terraform/Src/Tasks/TerraformTaskV1/README.md)
        
       ![](images/terraform-init2.png)
@@ -88,5 +88,3 @@ In this exercise, you will create azure resources using Terraform as part of you
    ![](images/webapp.png)
 
    Do you want to learn more about Terraform? If yes click [here](https://www.terraform.io/) for Terraform documentation.
-
-
