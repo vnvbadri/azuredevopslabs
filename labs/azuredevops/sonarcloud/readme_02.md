@@ -19,9 +19,9 @@
 
     ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/additionaldetails.png) 
 
-    - Copy the DevOps link from the Lab Environment output page to Navigate to login to Azure DevOps.
+    - Copy the DevOps link from the Lab Environment output page to login to Azure DevOps.
  
-    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/lab-output.png)"
+      ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/lab-output.png)"
 
     - This is the Azure DevOps organization name as mentioned in the screenshot below. 
 
