@@ -28,7 +28,7 @@ As your team works together you'll undoubtedly have files that you'll want to sh
 
 1. This is how the website/Wiki looks when added to the channel.
 
-   ![](images/wikiasweb2_new.png)
+   ![](images/wikiasweb2_new.PNG)
 
 Now that you have connected Microsoft Teams and Azure DevOps think about the other development team information that you can expose via Microsoft teams, for example: 
 
