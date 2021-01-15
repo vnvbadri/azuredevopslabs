@@ -15,27 +15,30 @@
 
     ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/organization.png) 
 
- 1. Provide Azure DevOps organization name and Personal Access Token. 
+ 1. Provide Azure DevOps organization name and Personal Access Token. Follow the steps mentioned below to get these details.
 
     ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/additionaldetails.png) 
 
-- Login to Azure DevOps to get above details 
+    - Copy the DevOps link from the Lab Environment output page to Navigate to login to Azure DevOps.
+ 
+    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/lab-output.png)"
 
- 1. This is the Azure DevOps organization name as mentioned in the screenshot below. 
+    - This is the Azure DevOps organization name as mentioned in the screenshot below. 
 
-    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/orgname.png) 
+      ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/orgname.png) 
 
- 1. To create a Personal Access Token, follow the steps shown in below images. 
+    - To create a Personal Access Token, follow the steps shown in below images. 
 
-    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/pat1.png)
+      ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/pat1.png)
 
-    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/pat2.png) 
+      ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/pat2.png) 
 
- 1. Enter details in sonar cloud window click on continue then finish steps. 
+    - Enter details in sonar cloud window click on continue then finish steps. 
 
-    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/nextstep.png)
+      ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/nextstep.png)
 
-    ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/finalstep.png)
+      ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/finalstep.png)
+      
 ### Task 2: Install and configure the SonarCloud extension ###
 
 1. Navigate to your team project on Azure DevOps.
