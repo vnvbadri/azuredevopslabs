@@ -76,10 +76,10 @@ Run the `@Azure Pipelines subscriptions` command and select **Add Subscription**
 
    - **Get notifications only for failed builds**
    
-    ![](images/azurepipelines_custombuildsub_new.png)
+     ![](images/azurepipelines_custombuildsub_new.png)
 
- - **Get notifications only if the deployments are pushed to prod environment** 
+   - **Get notifications only if the deployments are pushed to prod environment** 
    
-    ![](images/azurepipelines_customreleasesub_new.PNG)
+     ![](images/azurepipelines_customreleasesub_new.PNG)
 
 
