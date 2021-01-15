@@ -23,7 +23,7 @@
  
       ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/lab-output.png)"
 
-    - This is the Azure DevOps organization name as mentioned in the screenshot below. 
+    - Once you login to your Azure DevOps account, get the Azure DevOps organization name as shown in the screenshot below.
 
       ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/azuredevops/sonarcloud/images/orgname.png) 
 
