@@ -7,11 +7,9 @@ These can be added using Tabs. **Tabs** allow team members to access your servic
 
 1. To bring your Kanban board or Dashboard into Microsoft Teams, click the **+** icon to add new tab. Find the Azure DevOps icon and select **Azure DevOps**
 
-   ![](images/add_kanbanboard_new.png)
+   ![](images/add_kanbanboard_new.PNG)
 
    ![](images/azuredevops_tab.png)
-
- 
 
 1. Select the Organization
 
