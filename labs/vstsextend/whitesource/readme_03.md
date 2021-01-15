@@ -10,7 +10,6 @@ You have a **Java code** provisioned by the Azure DevOps demo generator. You wil
 
    ![inprogress_build](images/phase.png)
 
-
    ![queue-build](images/progress.png)
 
 1. While the build is in progress, let's explore the build definition. The tasks that are used in the build definition are listed in the table below.
