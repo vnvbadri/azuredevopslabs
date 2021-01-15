@@ -89,8 +89,7 @@ Now, lets go to the Azure DevOps project that you provisioned using the [Azure D
 
     ![](images/keyvaulttask.png)
 
-
-    At runtime, Azure Pipelines will fetch the latest values of the secrets and set them as task variables which can be consumed in the following tasks which means the password we stored earlier can be read using **$(sqldbpassword)**.  
+    At runtime, Azure Pipelines will fetch the latest values of the secrets and set them as task variables which can be consumed in the following tasks which means the password we stored earlier can be read using **$(sqldbpassword)**.
 
 1. We pass this value in the next task, **Azure Deployment** where we deploy an ARM template.
 
