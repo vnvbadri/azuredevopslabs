@@ -29,7 +29,9 @@ Azure Pipelines app on Microsoft Teams enables you to monitor the events for you
 1. The app asks you to **Sign in** and authenticate to Azure Pipelines. Click **Sign in** and complete the authentication.
 
      ![](images/azurepipelines_signin2.png)
+     
      ![](images/azurepipelines_signin3.png)
+     
      ![](images/azurepipelines_signin4.png)
     
 ### Subscribe for the pipelines notifications
