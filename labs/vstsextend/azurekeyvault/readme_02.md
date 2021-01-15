@@ -25,9 +25,9 @@ Next, we will create a key vault in Azure. For this lab scenario, we have a node
 
 1. Select **Access policy** and then select **+ Add Access Policy** to setup a new policy.
 
-     ![](images/kv_t2_s5.png)
+     ![](images/kv_t2_s5.PNG)
 
-1. You will need specify the permission that you intend to grant the application. This can be permissions to manage the keys and data(secrets). In any case, applications can access the key vault in two ways:
+1. You will need to specify the permission that you intend to grant the application. This can be permissions to manage the keys and data(secrets). In any case, applications can access the key vault in two ways:
 
     * User + Application access: Access is granted to specific user who can then be allowed to use any application or can be restricted to use a specific application. 
 
@@ -39,7 +39,7 @@ Next, we will create a key vault in Azure. For this lab scenario, we have a node
 
 1. Next, we will select the permission to be granted. For now, we will provide **read-only** permissions (Get, List) to secrets only.
 
-    ![](images/kv_t2_s8.png)
+    ![](images/kv_t2_s8.PNG)
 
 1.  Click **Review + create** to close the open blades and select **Create** to create the vault.
 
@@ -59,7 +59,7 @@ Now, lets go to the Azure DevOps project that you provisioned using the [Azure D
 
 1. To trigger a build, choose the **SmartHotel-CouponManagement-CI** definition and then **Run Pipeline** to manually queue it.
 
-    ![](images/kv_t3_s3.png)
+    ![](images/kv_t3_s3.PNG)
 
 1. Go to **Releases** under **Pipelines** and then select and **Edit** the **SmartHotel-CouponManagement-CD** definition.
 
