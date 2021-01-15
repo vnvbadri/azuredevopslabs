@@ -1,0 +1,18 @@
+[ {
+  "Name": "Az400-configuring-ci-cd-pipelines-as-code-with-yaml-in-azure-devops",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/azuredevops/yaml/readme_01.md",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/azuredevops/yaml/readme_02.md",
+      "Order": 2
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/azuredevops/yaml/readme_03.md",
+      "Order": 3
+    }
+  ]
+} ]
