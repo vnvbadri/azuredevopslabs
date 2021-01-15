@@ -41,7 +41,6 @@
 
 1. Click **Create a resource** and search for **"Web App + SQL"**.
 
-
 1. Select the **Web App + SQL** option published by Microsoft.
 
     ![](images/createresource.png)
@@ -114,7 +113,6 @@
 
 1. Review the contents of the YAML definition. It will be saved as a new file called **"azure-pipelines.yml"** in the root of the repository and contain everything needed to build and test a typical ASP.NET solution. You can also customize the build as needed. In this case, update the **pool** to specify the build should use a Visual Studio 2017 build VM. 
 
-  
     ![](images/poolimage.png)
 
 1. Click **Save and run**.
