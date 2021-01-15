@@ -12,8 +12,8 @@ Messages are a good way to connect and keep a history of the conversation. It's 
 
 1. **Easily find and discuss work items from DevOps in Teams** : You can easily search, find and discuss work items from Azure DevOps in Teams, keeping the conversation and collaboration within your Teams app. For example if you would like to discuss about any User Story you can click on **Azure DevOps** icon. It will prompt a window where you can search your project workitems. Select the work item to discuss and enter your comments.
 
-      ![](images/workitems_new.png)
-      ![](images/workitems2_new.png)
+      ![](images/workitems_new.PNG)
+      
+      ![](images/workitems2_new.PNG)
       
 For more information about using the Conversation tab in Microsoft Teams click [here](https://support.office.com/en-us/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2)
-
