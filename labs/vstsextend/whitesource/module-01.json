@@ -1,0 +1,26 @@
+[ {
+  "Name": "Az400-managing-open-source-security-and-license-with-whitesource",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/vstsextend/whitesource/readme_01.md",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/vstsextend/whitesource/readme_02.md",
+      "Order": 2
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/vstsextend/whitesource/readme_03.md",
+      "Order": 3
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/vstsextend/whitesource/readme_04.md",
+      "Order": 4
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/prod/labs/vstsextend/whitesource/readme_05.md",
+      "Order": 5
+    }
+  ]
+} ]
