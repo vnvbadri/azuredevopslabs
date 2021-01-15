@@ -33,7 +33,7 @@ Next, we will create a key vault in Azure. For this lab scenario, we have a node
 
     * Application-only access: Access is granted to the application which can be run as a daemon service or background job. 
 
-1. Select the **Select principal**  and search for the security principal that you created earlier and select it. You can search by name or ID of the principal.
+1. Select the **Select principal**  and search for the security principal that provided to you in the Lab Environment output page. You can search by name or ID of the principal.
 
     ![](images/select-sp.png)
 
@@ -89,8 +89,7 @@ Now, lets go to the Azure DevOps project that you provisioned using the [Azure D
 
     ![](images/keyvaulttask.png)
 
-
-    At runtime, Azure Pipelines will fetch the latest values of the secrets and set them as task variables which can be consumed in the following tasks which means the password we stored earlier can be read using **$(sqldbpassword)**.  
+    At runtime, Azure Pipelines will fetch the latest values of the secrets and set them as task variables which can be consumed in the following tasks which means the password we stored earlier can be read using **$(sqldbpassword)**.
 
 1. We pass this value in the next task, **Azure Deployment** where we deploy an ARM template.
 
@@ -101,13 +100,13 @@ Now, lets go to the Azure DevOps project that you provisioned using the [Azure D
    `-webAppName $(webappName) -mySQLAdminLoginName "azureuser" -mySQLAdminLoginPassword $(sqldbpassword)`
 
    This will provision the MySQL database defined in the ARM template using the password that you have specified in the key vault. 
-Select the resource group from the drop down as shown in below image. 
+   Select the resource group from the drop down as shown in below image. 
 
     ![Iimage.](https://raw.githubusercontent.com/CloudLabs-MOC/azuredevopslabs/az400-badri/labs/vstsextend/azurekeyvault/images/rgselect.png)
 
    You may want to complete the pipeline definition by specifying the subscription and location for the task. Repeat the same for the last task in the pipeline **Azure App Service Deploy**. Finally, save and create a new release to start the deployment.
-
-{% include note.html content= "You may wonder that we could have passed the value as a secret task variable itself within Azure Pipelines. While that is possible, task variables are specific to a pipeline and can't be used outside the definition it is created. Also, in most cases, secrets such as these are defined by Ops who may not want to set this for every pipeline." %}
+   
+- Note : You may wonder that we could have passed the value as a secret task variable itself within Azure Pipelines. While that is possible, task variables are specific to a pipeline and can't be used outside the definition it is created. Also, in most cases, secrets such as these are defined by Ops who may not want to set this for every pipeline.
 
 ### Related Labs
 * [Embracing Continuous Delivery with Azure Pipelines](https://azuredevopslabs.com/labs/azuredevops/continuousdeployment/)
