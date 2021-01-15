@@ -14,14 +14,13 @@
 
 1. Select **Build a team from scratch** and then select the privacy settings.
 
-    ![](images/create_team3_new.png)
+    ![](images/create_team3_new.PNG)
    
-    ![](images/create_team3_new01.png)
+    ![](images/create_team3_new01.PNG)
 
 1. Give a name for your team and description if needed and click on **Create**.
 
-    ![](images/create_team3_new02.png)
-
+    ![](images/create_team3_new02.PNG)
 
 1. Add members for your team in order to get notified the events that occur and also start conversations with your team members.
 
