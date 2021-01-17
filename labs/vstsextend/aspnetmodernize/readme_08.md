@@ -25,7 +25,7 @@ You will use a Windows Container on Azure Container Instances (ACI) to bring up 
    ![deployaci](images/deployaci.png)
 
    When prompted for **image registry password** paste the password which you had copied in the previous exercise
-   > Replace **your acr name** and **Image tag** with your resources details
+- Replace **your acr name** and **Image tag** with your resources details
 
    It would take approximately 5-10 minutes to deploy ACI.
 
