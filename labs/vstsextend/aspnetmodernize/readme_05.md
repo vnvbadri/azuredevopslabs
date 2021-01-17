@@ -87,7 +87,7 @@ In this exercise, you will create a SQL Azure instance and migrate the applicati
    </connectionStrings>
    ```
 
-   >**Note**: Replace the connection string with your Azure SQL database connection string.
+- **Note**: Replace the connection string with your Azure SQL database connection string.
 
   Now you have successfully migrated the application LocalDB to Azure SQL Db and also updated connection string to refer to Azure SQL.
 
