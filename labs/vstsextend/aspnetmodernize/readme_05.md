@@ -51,10 +51,10 @@ In this exercise, you will create a SQL Azure instance and migrate the applicati
 1. On the **Review + create** page, after reviewing, select **Create**.
 
 
-2. Once the SQL database is provisioned in Azure, open the **SQL Server Object Explorer** in Visual Studio. Click on **Add Server** icon and connect to the Azure SQL server which you have deployed in the previous step.
+1. Once the SQL database is provisioned in Azure, open the **SQL Server Object Explorer** in Visual Studio. Click on **Add Server** icon and connect to the Azure SQL server which you have deployed in the previous step.
 
     ![connecttoazuresql](images/connecttoazuresql.png)
-3. To get the schema moved from the LocalDB to the new SQL Azure instance right-click on the LocalDB Instance and select the Schema Compare option.
+1. To get the schema moved from the LocalDB to the new SQL Azure instance right-click on the LocalDB Instance and select the Schema Compare option.
 
    ![schemacompare](images/schemacompare.png)
 
@@ -67,7 +67,7 @@ In this exercise, you will create a SQL Azure instance and migrate the applicati
    ![updateschema](images/updateschema.png)
    ![updateschema2](images/updateschema2.png)
 
-4. Similarly to get the data moved from the LocalDB to the SQL Azure instance to right-click on the LocalDB Instance and select the Data Compare tool and walk through the SQL Data Compare wizard.
+1. Similarly to get the data moved from the LocalDB to the SQL Azure instance to right-click on the LocalDB Instance and select the Data Compare tool and walk through the SQL Data Compare wizard.
 
       ![datacompare](images/datacompare.png)
 
@@ -79,7 +79,7 @@ In this exercise, you will create a SQL Azure instance and migrate the applicati
 
       ![datacompare3](images/datacompare3.png)
 
-5. In order to accomplish the **zero code change mantra**, using web.config transforms is the best way to accomplish. Here you will add a new **web.release.config** with a new entry. Open the **web.release.config** in Visual Studio and add the below entry.
+1. In order to accomplish the **zero code change mantra**, using web.config transforms is the best way to accomplish. Here you will add a new **web.release.config** with a new entry. Open the **web.release.config** in Visual Studio and add the below entry.
 
    ```csharp
    <connectionStrings>
